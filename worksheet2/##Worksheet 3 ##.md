@@ -70,7 +70,7 @@
 >
 >A call to writeFile() should – if possible – write a file Person.java with all the output above together with the class header and the closing }. After copying over the Date.java class from the lecture in week 2, the Person.java class should compile.
 >
-#### Exercise 4####
+#### Exercise 4 ####
 >debug
 
 
