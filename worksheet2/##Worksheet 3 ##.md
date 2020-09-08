@@ -1,5 +1,6 @@
-##Worksheet 3 ##
-####Exercise 1 ####
+## Worksheet 3 ##
+
+#### Exercise 1 ####
 >Assume you have a non-empty array of double values double[] temperatures
 >= new double[365]; that stores for the 365 days of a year the temperatures measured at a weather station. Write a class Temperature with a method public static int coldest(double[] temperatures)
 >that finds the first day of the year with the lowest temperature.
@@ -11,7 +12,7 @@
 >
 >Example: If we have an array with the entries {-10,0,0,0,0,...,0}, that is, except for the first entry, -10, all other entries are 0, then the method should return 1, since the lowest temperature is -10, and the first day when it is measured is the first day of the year. For {0,-10,-10,0,0,...,0}, the method should return 2, since again the lowest temperature is -10, and the second day of the year is the first day with the lowest temperature.
 >
-####Exercise 2 ####
+#### Exercise 2 ####
 >A company stores the salaries of its employees in an ArrayList<double[]> allSalaries, an ArrayList of arrays of type double. Each entry in allSalaries is an array of the 12 salaries of an employee for the 12 months of the year.
 >
 >Write a class Salaries with the constructor
@@ -24,7 +25,7 @@
 >Hint: You need to catch possible exceptions thrown by the method average.
 >* The method public boolean not3TimesHigher() checks whether for each employee with at least one non-zero monthly salary their average salary is not higher than three times the overall average salary of the other employees. That is, you need here the average of the averages.
 >
-####Exercise 3 ####
+#### Exercise 3 ####
 >Write a class GenerateClass to generate from the field variables a constructor, the setters, and the getters automatically just as Eclipse does. Assume three field variables:
 >* String classname, String[] variableNames, and String[] variableTypes, representing the class name of the class and the names and types of the field variables. The two arrays are of the same length.
 >* Write a constructor.
@@ -69,7 +70,7 @@
 >
 >A call to writeFile() should – if possible – write a file Person.java with all the output above together with the class header and the closing }. After copying over the Date.java class from the lecture in week 2, the Person.java class should compile.
 >
-####Exercise 4####
+#### Exercise 4####
 >debug
 
 
