@@ -1,6 +1,6 @@
-##worksheet 1##
-
-####Exercise 1 ####
+worksheet 1
+====
+#### Exercise 1 ####
 >* Write a class Car with the four field variables make, price, maxSpeed, and colour of types String, int, int, and String, respectively.
 >* Write a constructor to create Car objects.
 >* Implement all getter and setter methods. 
