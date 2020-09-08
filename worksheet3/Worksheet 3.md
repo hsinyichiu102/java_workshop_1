@@ -1,18 +1,18 @@
-##Worksheet 3##
+## Worksheet 3##
 >
-####Exercise 1####
+#### Exercise 1####
 >Write a class Aircraft.java with the two field variables
 >passengerNumber and maxSpeed both of type int with a standard constructor, getter(s), setter(s), and
 >a toString method. Furthermore write a subclass Aeroplane.java with the additional field variable
 >fuelConsumption of type double. The class should contain a constructor, getter(s) and setter(s), and a
 >toString method. Make use of inheritance as far as possible.
 >
-####Exercise 2 ####
+#### Exercise 2 ####
 >Let two interfaces for the two classes Subscription.java and SubscriptionPrime.java be given as SubscriptionInterface.java and SubscriptionPrimeInterface.java. You find the interfaces in the
 archive WS1-04-interfaces.zip on the Canvas page for the worksheet.
 >Subscription.java describes the subscription to a journal by the 3 field variables title, email, and cost of types String, String, and int, respectively. The subclass SubscriptionPrime.java has the additional field address of type String, indicating where hard copies of the journal should be sent to. Make use of inheritance as far as possible.
 >
-####Exercise 3####
+#### Exercise 3####
 >Assume a website for downloading music which has four classes, one for representing a music title, MusicTitle.java, and three for user accounts. The class Account.java is abstract with two subclasses AccountStandard.java for customers, and AccountAdministrator.java for administrators. Each of the four classes is to implement a corresponding interface with the names MusicTitleInterface.java, AccountInterface.java, AccountStandardInterface.java, and AccountAdministratorInterface.java, respectively. 
 >
 >The class Account has to have five field variables: name, salutation, email, password, and loggedIn of types String, String, String, String, and boolean, respectively.
